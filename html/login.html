@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Font Awesome CSS -->
+ 
+  <style>
+    /* Custom CSS styles */
+    .login-container {
+      max-width: 400px;
+      margin: auto;
+      padding: 20px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      margin-top: 50px;
+    }
+  </style>
+</head>
+<body>
+
+<div class="container">
+  <div class="login-container">
+    <h2 class="text-center">Login</h2>
+    <div class="text-center mt-3">
+      <p>If you don’t have an account <a href="#">register</a>.</p>
+      <p>You can <a href="#">register here</a>!</p>
+    </div>
+    <form>
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" class="form-control" id="email" placeholder="Enter your email address">
+      </div>
+      <div class="form-group">
+        <label for="password">Password</label>
+        <input type="password" class="form-control" id="password" placeholder="Enter your password">
+      </div>
+      <div class="form-group form-check">
+        <input type="checkbox" class="form-check-input" id="remember">
+        <label class="form-check-label" for="remember">Remember me</label>
+      </div>
+      <div class="form-group">
+        <a href="#" class="d-block text-right">Forgot Password?</a>
+      </div>
+      <button type="submit" class="btn btn-primary btn-block">Login</button>
+    </form>
+    
+    <div class="text-center mt-3">
+      <p>or continue with</p>
+      <button class="btn btn-primary rounded-circle"><i class="fab fa-facebook-f"></i></button>
+      <button class="btn btn-black rounded-circle"><i class="fab fa-apple"></i></button>
+      <button class="btn btn-danger rounded-circle"><i class="fab fa-google"></i></button>
+    </div>
+  </div>
+</div>
+
+<!-- Font Awesome Script -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/js/all.min.js"></script>
+
+</body>
+</html>
